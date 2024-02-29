@@ -7,7 +7,7 @@ head {
 }
 
 body {
-	margin: 0px 10%;
+	/*margin: 0px 10%;*/
 	background-color: rgb(140, 178, 154);
 }
 
@@ -54,7 +54,7 @@ a:link, a:visited {
 	background-color: rgb(48,176,82);
 	color: white;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	width: 100%;
+	width: 80%;
 	padding: 8px 8px;
 	display: inline-block;
 	margin: 10%;
