@@ -36,14 +36,14 @@ body {
 }
 
 h1 {
-	font-size:400%;
+	font-size:4em;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(238, 253, 233);
 	text-shadow: 1px 1px 2px darkgreen;
 }
 
 h2 {
-	font-size: 250%;
+	font-size: 2em;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(238, 253, 233);
 	text-shadow: 1px 1px 2px darkgreen;
