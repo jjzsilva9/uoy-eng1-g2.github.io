@@ -2,8 +2,18 @@
 	box-sizing: border-box;
   }
 
+head {
+	background-color: darkgreen;
+}
+
+body {
+	margin: 0px 10%;
+	background-color: rgb(140, 178, 154);
+}
+
 .heading {
 	text-align: center;
+	margin: auto;
 }
 
 .column {
@@ -19,16 +29,32 @@
 	clear: both;
 }
 
+.GanttCharts {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 10%;
+}
+
 h1 {
-	font-size: 16;
-	color: black;
-	text-shadow: 2px 2px 5px black;
+	font-size:400%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(238, 253, 233);
+	text-shadow: 1px 1px 2px darkgreen;
+}
+
+h2 {
+	font-size: 250%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(238, 253, 233);
+	text-shadow: 1px 1px 2px darkgreen;
 }
 
 a:link, a:visited {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
 	color: white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	width: 100%;
 	padding: 8px 8px;
 	display: inline-block;
 	margin: 10%;
