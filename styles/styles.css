@@ -1,5 +1,18 @@
-.heading {
+.heading div {
 	text-align: center;
+}
+
+.column div {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px;
+}
+
+.row:after div {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 h1 {
@@ -12,16 +25,22 @@ a:link, a:visited {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
 	color: white;
+	padding: 8px 8px;
+	margin: 150px;
 }
 
 a:hover {
 	text-decoration: none;
 	background-color: rgb(32,135,60);
 	color: white;
+	padding: 8px 8px;
+	margin-top: 150px;
 }
 
 a:active {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
 	color: rgb(48,176,82);
+	padding: 8px 8px;
+	margin-top: 150px;
 }
