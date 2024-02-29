@@ -2,7 +2,32 @@
 	text-align: center;
 }
 
-h1 {
+.links {
+	
+}
+
+h1 
+	font-size: 16;
 	color: black;
 	text-shadow: 2px 2px 5px black;
+}
+
+a:link {
+	text-decoration: none;
+	background-color: rgb(48,176,82);
+}
+
+a:visited {
+	text-decoration: none;
+	background-color: ;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: rgb(32,135,60);
+}
+
+a:active {
+	text-decoration: none;
+	background-color: rgb(48,176,82);
 }
