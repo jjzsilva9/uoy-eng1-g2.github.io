@@ -2,32 +2,26 @@
 	text-align: center;
 }
 
-.links {
-	
-}
-
 h1 {
 	font-size: 16;
 	color: black;
 	text-shadow: 2px 2px 5px black;
 }
 
-a:link {
+a:link, a:visited {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
-}
-
-a:visited {
-	text-decoration: none;
-	background-color: ;
+	color: white;
 }
 
 a:hover {
 	text-decoration: none;
 	background-color: rgb(32,135,60);
+	color: white;
 }
 
 a:active {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
+	color: rgb(48,176,82);
 }
