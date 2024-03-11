@@ -48,6 +48,11 @@ img {
 	height: auto;
 }
 
+.CenterLink {
+	margin: auto;
+	text-align: center;
+}
+
 a:link, a:visited {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
