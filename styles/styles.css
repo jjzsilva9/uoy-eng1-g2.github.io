@@ -29,6 +29,19 @@ body {
 	text-align: center;
 }
 
+.GanttCharts {
+	margin: auto;
+	text-align: center;
+	margin-bottom: 10%;
+}
+
+p {
+	font-size: 3vw;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(238, 253, 233);
+	text-shadow: 1px 1px 2px darkgreen;
+}
+
 h1 {
 	font-size:6vw;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -72,3 +85,38 @@ a:hover {
 a:active {
 	box-shadow: none;
 }
+
+/* Style The Dropdown Button */
+.dropbutton {
+	background-color: rgb(48,176,82);
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+	position: relative;
+	display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+	background-color: rgb(140, 178, 154);
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+  }
