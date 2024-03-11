@@ -16,13 +16,6 @@ body {
 	margin: auto;
 }
 
-.home {
-	position: absolute;
-	left: 1%;
-	top: 1%;
-	width: 15%;
-}
-
 .column {
 	float: left;
 	width: 50%;
