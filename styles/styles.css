@@ -16,6 +16,14 @@ body {
 	margin: auto;
 }
 
+.home {
+	position: absolute;
+	left: 1%;
+	top: 1%;
+	width: 20%;
+	text-align: center;
+}
+
 .CenterLink {
 	margin: auto;
 	text-align: center;
