@@ -61,6 +61,12 @@ img {
 	height: auto;
 }
 
+.download {
+	width: 15px;
+	height: auto;
+	margin-left: 2em;
+}
+
 a:link, a:visited {
 	text-decoration: none;
 	background-color: rgb(48,176,82);
